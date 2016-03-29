@@ -25,13 +25,13 @@ body {
 /*HEADER*/
 
 .top {
-   height: 330px;
+   padding-bottom: 15px;
    width: 100%;
 }
 
 .avtoris {
    margin-top: 17px;
-   height: 27px;
+   padding-bottom: 5px;
    width: 100%;    
 }
 
@@ -75,7 +75,7 @@ body {
     float: left;
     height: 22px;
     width: 22px;
-    margin-top: 5px;
+    margin-top: 4px;
     background: url(../img/icons.png) no-repeat;
 }
 
@@ -83,7 +83,7 @@ body {
     float: left;
     display: block;
     margin-left: 4px;
-    margin-top: 6px;
+    margin-top: 4px;
     font: 18px Arial, sans-serif;
     letter-spacing: 0.4px; 
     color: #5e696d;
@@ -91,8 +91,8 @@ body {
 
 .im-3 {
     float: right;
-    margin-top: 4px;
-    margin-right: 11px;
+    margin-top: 6px;
+    margin-right: 10px;
     height: 9px;
     width: 13px;
     cursor: pointer;
@@ -102,8 +102,8 @@ body {
 
 .im-2 {
     float: right;
-    margin-top: 4px;
-    margin-right: 9px;
+    margin-top: 6px;
+    margin-right: 8px;
     height: 10px;
     width: 14px;
     cursor: pointer;
@@ -113,8 +113,8 @@ body {
 
 .im-1 {
     float: left;
-    margin-top: 3px;
-    margin-left: 8px;
+    margin-top: 5px;
+    margin-left: 9px;
     height: 10px;
     width: 13px;
     cursor: pointer;
@@ -282,7 +282,7 @@ body {
 .sum2 {
     float: right;
     display: inline-block;
-    margin-right: 12px;
+    margin-right: 4px;
     font: 12px Arial, sans-serif;
     color: #929b9f;
 }
@@ -512,7 +512,7 @@ label {
     margin-right: 8px;
     margin-top: 14px;
     width: 526px;
-    height: 628px;
+    padding-bottom: 81px;
     border-radius: 4px;
     background: linear-gradient(to top, #93a7b0,#e5e7e8);
 }
@@ -594,92 +594,12 @@ label {
     text-align: center;
 }
 
-.product-1 h2 {
-    display: block;
-    font: 16px 'lucida Sans', Arial, sans-serif;
-    color: #206988;
-    letter-spacing: -0.6px;
-}
-
-.product-1 span {
-    display: block;
-    font: 14px 'lucida Sans', Arial, sans-serif;
-    color: #1f2528;
-    letter-spacing: -0.7px;
-    margin-top: -11px;
-}
-
-.product-1 div {
-     width: 138px;
-    height: 128px;
-    margin-top: -3px;
-    margin-bottom: 12px;
-    background-color: white;
-    border: 1px solid #b0b9bc;
-    border-radius: 8px;
-}
-
-.product-1 div img {
-    display: block;
-    margin: 4px auto;
-}
-
-.product-1 .price {
-    display: block;
-    font: 17px Arial, sans-serif;
-    font-style: italic;
-    font-weight: 800;
-    color: #206988;
-    margin-left: 11px;
-    letter-spacing: -0.8px;
-}
-
 .product-2 {
     float: right;
     width: 140px;
     height: 138px;
     margin: 11px 28px 0px 0px;
     text-align: center;
-}
-
-.product-2 h2 {
-    display: block;
-    font: 16px 'lucida Sans', Arial, sans-serif;
-    color: #206988;
-    letter-spacing: -0.6px;
-}
-
-.product-2 span {
-     display: block;
-    font: 14px 'lucida Sans', Arial, sans-serif;
-    color: #1f2528;
-    letter-spacing: -0.7px;
-    margin-top: -11px;
-}
-
-.product-2 div {
-    width: 138px;
-    height: 128px;
-    margin-top: -3px;
-    margin-bottom: 12px;
-    background-color: white;
-    border: 1px solid #b0b9bc;
-    border-radius: 8px;
-}
-
-.product-2 div img {
-    display: block;
-    margin: 4px auto;
-}
-
-.product-2 .price {
-    display: block;
-    font: 17px Arial, sans-serif;
-    font-style: italic;
-    font-weight: 800;
-    color: #206988;
-    margin-left: 11px;
-    letter-spacing: -0.8px;
 }
 
 .product-3 {
@@ -690,14 +610,14 @@ label {
     text-align: center;
 }
 
-.product-3 h2 {
+.product__h2 {
     display: block;
     font: 16px 'lucida Sans', Arial, sans-serif;
     color: #206988;
     letter-spacing: -0.6px;
 }
 
-.product-3 span {
+.product__discript {
     display: block;
     font: 14px 'lucida Sans', Arial, sans-serif;
     color: #1f2528;
@@ -705,310 +625,22 @@ label {
     margin-top: -11px;
 }
 
-.product-3 div {
+.product__box {
     width: 138px;
-    height: 128px;
     margin-top: -3px;
-    margin-bottom: 12px;
+    margin-bottom: 3px;
     background-color: white;
     border: 1px solid #b0b9bc;
     border-radius: 8px;
 }
 
-.product-3 div img {
+.product__img {
     display: block;
     margin: 4px auto;
+    max-height: 118px;
 }
 
-.product-3 .price {
-    display: block;
-    font: 17px Arial, sans-serif;
-    font-style: italic;
-    font-weight: 800;
-    color: #206988;
-    margin-left: 11px;
-    letter-spacing: -0.8px;
-}
-
-.product-4 {
-    float: right;
-    width: 140px;
-    height: 138px;
-    margin: 14px 27px 0px 0px;
-    text-align: center;
-}
-
-.product-4 h2 {
-    display: block;
-    font: 16px 'lucida Sans', Arial, sans-serif;
-    color: #206988;
-    letter-spacing: -0.6px;
-}
-
-.product-4 span {
-    display: block;
-    font: 14px 'lucida Sans', Arial, sans-serif;
-    color: #1f2528;
-    letter-spacing: -0.7px;
-    margin-top: -11px;
-}
-
-.product-4 div {
-    width: 138px;
-    height: 128px;
-    margin-top: -3px;
-    margin-bottom: 12px;
-    background-color: white;
-    border: 1px solid #b0b9bc;
-    border-radius: 8px;
-}
-
-.product-4 div img {
-    display: block;
-    margin: 4px auto;
-}
-
-.product-4 .price {
-    display: block;
-    font: 17px Arial, sans-serif;
-    font-style: italic;
-    font-weight: 800;
-    color: #206988;
-    margin-left: 11px;
-    letter-spacing: -0.8px;
-}
-
-.product-5 {
-    float: right;
-    width: 140px;
-    height: 138px;
-    margin: 14px 29px 0px 0px;
-    text-align: center;
-}
-
-.product-5 h2 {
-    display: block;
-    font: 16px 'lucida Sans', Arial, sans-serif;
-    color: #206988;
-    letter-spacing: -0.6px;
-}
-
-.product-5 span {
-    display: block;
-    font: 14px 'lucida Sans', Arial, sans-serif;
-    color: #1f2528;
-    letter-spacing: -0.7px;
-    margin-top: -11px;
-}
-
-.product-5 div {
-    width: 138px;
-    height: 128px;
-    margin-top: -3px;
-    margin-bottom: 12px;
-    background-color: white;
-    border: 1px solid #b0b9bc;
-    border-radius: 8px;
-}
-
-.product-5 div img {
-    display: block;
-    margin: 4px auto;
-}
-
-.product-5 .price {
-    display: block;
-    font: 17px Arial, sans-serif;
-    font-style: italic;
-    font-weight: 800;
-    color: #206988;
-    margin-left: 11px;
-    letter-spacing: -0.8px;
-}
-
-.product-6 {
-    float: right;
-    width: 140px;
-    height: 138px;
-    margin: 14px 28px 0px 0px;
-    text-align: center;
-}
-
-.product-6 h2 {
-    display: block;
-    font: 16px 'lucida Sans', Arial, sans-serif;
-    color: #206988;
-    letter-spacing: -0.6px;
-}
-
-.product-6 span {
-    display: block;
-    font: 14px 'lucida Sans', Arial, sans-serif;
-    color: #1f2528;
-    letter-spacing: -0.7px;
-    margin-top: -11px;
-}
-
-.product-6 div {
-    width: 138px;
-    height: 128px;
-    margin-top: -3px;
-    margin-bottom: 12px;
-    background-color: white;
-    border: 1px solid #b0b9bc;
-    border-radius: 8px;
-}
-
-.product-6 div img {
-    display: block;
-    margin: 4px auto;
-}
-
-.product-6 .price {
-    display: block;
-    font: 17px Arial, sans-serif;
-    font-style: italic;
-    font-weight: 800;
-    color: #206988;
-    margin-left: 11px;
-    letter-spacing: -0.8px;
-}
-
-.product-7 {
-    float: right;
-    width: 140px;
-    height: 138px;
-    margin: 16px 28px 0px 0px;
-    text-align: center;
-}
-
-.product-7 h2 {
-    display: block;
-    font: 16px 'lucida Sans', Arial, sans-serif;
-    color: #206988;
-    letter-spacing: -0.6px;
-}
-
-.product-7 span {
-    display: block;
-    font: 14px 'lucida Sans', Arial, sans-serif;
-    color: #1f2528;
-    letter-spacing: -0.7px;
-    margin-top: -11px;
-}
-
-.product-7 div {
-    width: 138px;
-    height: 128px;
-    margin-top: -3px;
-    margin-bottom: 12px;
-    background-color: white;
-    border: 1px solid #b0b9bc;
-    border-radius: 8px;
-}
-
-.product-7 div img {
-    display: block;
-    margin: 4px auto;
-}
-
-.product-7 .price {
-    display: block;
-    font: 17px Arial, sans-serif;
-    font-style: italic;
-    font-weight: 800;
-    color: #206988;
-    margin-left: 11px;
-    letter-spacing: -0.8px;
-}
-
-.product-8 {
-    float: right;
-    width: 140px;
-    height: 138px;
-    margin: 16px 28px 0px 0px;
-    text-align: center;
-}
-
-.product-8 h2 {
-    display: block;
-    font: 16px 'lucida Sans', Arial, sans-serif;
-    color: #206988;
-    letter-spacing: -0.6px;
-}
-
-.product-8 span {
-    display: block;
-    font: 14px 'lucida Sans', Arial, sans-serif;
-    color: #1f2528;
-    letter-spacing: -0.7px;
-    margin-top: -11px;
-}
-
-.product-8 div {
-    width: 138px;
-    height: 128px;
-    margin-top: -3px;
-    margin-bottom: 12px;
-    background-color: white;
-    border: 1px solid #b0b9bc;
-    border-radius: 8px;
-}
-
-.product-8 div img {
-    display: block;
-    margin: 4px auto;
-}
-
-.product-8 .price {
-    display: block;
-    font: 17px Arial, sans-serif;
-    font-style: italic;
-    font-weight: 800;
-    color: #206988;
-    margin-left: 11px;
-    letter-spacing: -0.8px;
-}
-
-.product-9 {
-    float: right;
-    width: 140px;
-    height: 138px;
-    margin: 16px 28px 0px 0px;
-    text-align: center;
-}
-
-.product-9 h2 {
-    display: block;
-    font: 16px 'lucida Sans', Arial, sans-serif;
-    color: #206988;
-    letter-spacing: -0.6px;
-}
-
-.product-9 span {
-    display: block;
-    font: 14px 'lucida Sans', Arial, sans-serif;
-    color: #1f2528;
-    letter-spacing: -0.7px;
-    margin-top: -11px;
-}
-
-.product-9 div {
-    width: 138px;
-    height: 128px;
-    margin-top: -3px;
-    margin-bottom: 12px;
-    background-color: white;
-    border: 1px solid #b0b9bc;
-    border-radius: 8px;
-}
-
-.product-9 div img {
-    display: block;
-    margin: 4px auto;
-}
-
-.product-9 .price {
+.price {
     display: block;
     font: 17px Arial, sans-serif;
     font-style: italic;
@@ -1025,9 +657,8 @@ label {
 
 /*FOOTER*/
 
-footer {
+.footer {
     width: 912px;
-    height: 152px;
     margin-top: 10px;
 }
 
